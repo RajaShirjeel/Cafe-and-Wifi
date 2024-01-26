@@ -1,0 +1,206 @@
+/* style.css */
+.card-img-top {
+    float: left;
+    width: 479px;
+    height: 250px;
+    background-size: cover;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 10px;
+}
+
+.me {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 240px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-right {
+    margin-right: 280px;
+}
+
+.info-container + hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid black;
+    width: calc(100% - 280px);
+}
+
+.image-wrapper {
+    overflow: hidden;
+    margin-left: 240px;
+}
+
+.image-containerr {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.the-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.image-containerr:hover .overlay {
+    opacity: 0;
+}
+
+.image-text,
+.image-text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-ish {
+    font-size: 27px;
+}
+
+
+
+.container-the-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.signin-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-top: 60px; /* Adjust as needed */
+}
+
+.signin-container h2 {
+    color: #333333;
+}
+
+.signin-form-group {
+    margin-bottom: 20px;
+}
+
+.signin-form-group label {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+.signin-form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signin-form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signin-form-group button:hover {
+    background-color: black;
+}
+
+.custom-btn {
+    text-decoration: none; /* Remove underline for links */
+}
+
+.flashee{
+    color: red;
+
+}
+
+
+.custom-container {
+    margin-top: 50px;
+}
+
+.custom-profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.custom-about-me-text {
+    margin-top: 20px;
+}
+
+.comment-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+
+
+.comment-div input[type="submit"] {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.comment-header{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.users-comments{
+    margin-left: 20px;
+}
+
+.comment-sign-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
